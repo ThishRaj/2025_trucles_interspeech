@@ -11,7 +11,7 @@ This work has been accepted at Interspeech 2025 - [Link to paper] (to be uploade
 The figure below illustrates how **TruCLeS** enables better separation between correct and incorrect predicted words in CTC-ASR model.
 
 <p align="center">
-  <img src="ctc_plot.png" alt="TruCLeS: Score separation between correct and incorrect words" width="600"/>
+  <img src="ctc_plot.jpeg" alt="TruCLeS: Score separation between correct and incorrect words" width="600"/>
   <br><em>Figure: Score distribution: CTC-ASR model</em>
 </p>
 
