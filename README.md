@@ -6,9 +6,9 @@ TruCLeS is validated on both CTC and RNN-T based ASR models.
 
 This work has been accepted at Interspeech 2025 - [Link to paper] (to be uploaded soon).
 
-### Score Distribution: Correct vs Incorrect Words
+## Score Distribution: Correct vs Incorrect Words
 
-The figure below illustrates how **TruCLeS** enables better separation between correct and incorrect predicted words in CTC-ASR model.
+The figures below illustrate how **TruCLeS** enables better separation between correct and incorrect predicted words in CTC and RNN-T ASR models.
 
 <p align="center">
   <img src="ctc_plot.jpeg" alt="TruCLeS: Score separation between correct and incorrect words" width="600"/>
@@ -20,7 +20,7 @@ The figure below illustrates how **TruCLeS** enables better separation between c
   <br><em>Figure: Score distribution: RNN-T-ASR model</em>
 </p>
 
-Evaluation on PB-Hindi Dataset
+## Evaluation and results
 
 The table below presents the performance of various CTC-ASR based CEMs on the PB-Hindi dataset. 
 
