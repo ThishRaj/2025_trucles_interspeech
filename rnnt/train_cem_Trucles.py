@@ -16,7 +16,7 @@ from torch.optim import Adam
 from torch.nn.utils.rnn import pack_padded_sequence, pad_sequence
 import pandas as pd
 from nemo.collections.asr.models import EncDecRNNTBPEModel
-from Baseline_utils import CEMModel
+from cem_model import CEMModel
 
 with open("./train_config.yaml", "r") as f:
     config = yaml.load(f, Loader=yaml.FullLoader) 
