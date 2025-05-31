@@ -1,0 +1,6 @@
+train_data_file_path: "./librispeech_train.pkl"
+test_data_file_path: "./librispeech_test.pkl" 
+loss: "shrinkage" # or mae
+df_path: "./training_metrics.csv"
+checkpoint_save_path: "./Trucles_lr_0.001_two_blstm.pth"
+checkpoint_path: "./Trucles_lr_0.001_two_blstm.pth"

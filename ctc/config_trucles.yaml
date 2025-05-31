@@ -1,0 +1,19 @@
+DEVICE: 'cuda:'
+asr_checkpoint_path: 'stt_hi_conformer_ctc_large_v2.nemo'
+TRAIN_BS: 32
+TEST_BS: 1
+DEV_BS: 1
+EPOCHS: 100
+confid_model: 'linear_deep'
+input_dim: 770 #encoder-out - 256 (medium) 512 (large), decoder - 129, softmax -129 => medium = 514; large = 770
+hidden_dim: 128
+learning_rate: 0.001
+trucles_train_dataset: 'kb_clean_train_final.tsv'
+trucles_dev_dataset: 'kb_clean_valid_final.tsv'
+best_loss_checkpoint: 'best_confid.pt' 
+checkpoint: 'ckpt_confid.pt' 
+loss: 'shrinkage'
+audio_root: ''
+spm_model_path: 'e49634ca965d468b99691ca3ac8d25ae_tokenizer.model'
+shrinkage_loss_a: 2.0
+shrinkage_loss_c: 0.5

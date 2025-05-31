@@ -1,0 +1,4 @@
+asr_model_path: "./models/stt_en_conformer_transducer_medium.nemo" 
+metadata_path: "./data/ASR_datasets/CVE/metdata.tsv" 
+audio_root_dir: "./data/ASR_datasets/CVE/wavs"
+pickle_file_save_path: './CVE_Test.pkl'
